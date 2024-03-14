@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A99382;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    width: 1000px;
+    height: 70vh;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-div .title {
+    color: #50281A;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+}
+
+.left-div .sub-title {
+    color: #50281A;
+    font-size: 1.5rem;
+}
+
+.coffee-logo {
+    width:  400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.right-div{
+    background-color: white;
+}
+
+.right-div .small-box {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+    color: #50281A;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #50281A;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form .login-btn:hover {
+    background-color: #6c3f2d;
+}
+
+form .createBtn {
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 26%;
+    margin-top: 5%;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+form .createBtn:hover {
+    color: #6c3f2d;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 160px;
+}
+
+span{
+    flex-grow: 1; /* Allow the label to take up available space */
+    white-space: nowrap;
+    padding-left: .5rem;
+    padding-bottom: 10px;
+    
+}
+
